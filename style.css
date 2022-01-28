@@ -1,0 +1,34 @@
+.rustyZone {
+  background-color: red;
+  color: white;
+  width: 20vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 9999999999;
+  display: none;
+}
+.Links {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+a {
+  color: black;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.rusty {
+  background-color: red;
+  color: white;
+  width: 20vw;
+  height: 10vh;
+  top: 80vh;
+  border-radius: 20px;
+  position: absolute;
+  right: 40vw;
+  cursor: pointer;
+}
